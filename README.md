@@ -118,6 +118,25 @@ python src/collect_data.py --organisms vaccinia,cowpox,monkeypox,variola,ectrome
 python src/prepare_data.py --with-external
 ```
 
+### Дополнительный источник: PubChem BioAssay
+
+Второй открытый источник (помимо ChEMBL) — PubChem BioAssay. Скрипты лежат в
+`scripts_pubchem/` (требуют `requests`, интернет):
+
+| Скрипт | Что делает |
+| --- | --- |
+| `scripts_pubchem/download_chembl.py` | Выгрузка активности против VACV из ChEMBL (target CHEMBL613493) + поиск CC50 по всему ChEMBL. |
+| `scripts_pubchem/download_pubchem.py` | Обход PubChem: тесты, измеряющие индекс селективности напрямую («vaccinia virus AND selectivity index»), и пары IC50/CC50. |
+| `scripts_pubchem/enrich_doi_v2.py` | Восстановление DOI для PubChem-записей: AID → ChEMBL assay → документ → DOI (98 % покрытия). |
+| `scripts_pubchem/build_dataset_artifact.py` | Сборка итогового датасета в формате задания: SMILES, IC50, CC50, SI, DOI, источник. |
+| `scripts_pubchem/coverage_map.py` | Карта покрытия теста известными измерениями. |
+| `scripts_pubchem/search_by_name.py` | Поиск молекул теста по названиям (колонка Title) в PubChem. |
+
+Итоговый собранный набор: `data/dataset_pubchem_chembl_si_doi.csv` — 670 уникальных
+молекул (SMILES, IC50, CC50, SI, DOI, источник; 98 % строк с DOI). Внимание: часть
+записей содержит цензурированные CC50 (потолок измерения), при обучении такие строки
+отфильтровываются — см. `docs/project_overview.md` и `scripts_pubchem/coverage_map.py`.
+
 ## Модель
 
 - Признаки: дескрипторы RDKit и Morgan fingerprints, radius 2, 2048 бит, плюс условия
