@@ -1,0 +1,20 @@
+index,chembl_id,si,assay,doc
+93,CHEMBL4294753,32.0,"Selectivity index, ratio of TC50 for African green monkey Vero cells to IC50 for Vaccinia virus Copenhagen",CHEMBL4257560
+105,CHEMBL4287621,3.0,"Selectivity index, ratio of TC50 for African green monkey Vero cells to IC50 for Vaccinia virus Copenhagen",CHEMBL4257560
+121,CHEMBL500836,2.1,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
+139,CHEMBL524172,1.9,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
+145,CHEMBL492466,4.0,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
+174,CHEMBL4279712,5.0,"Selectivity index, ratio of TC50 for African green monkey Vero cells to IC50 for Vaccinia virus Copenhagen",CHEMBL4257560
+225,CHEMBL4285428,24.0,"Selectivity index, ratio of TC50 for African green monkey Vero cells to IC50 for Vaccinia virus Copenhagen",CHEMBL4257560
+302,CHEMBL494725,1.5,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
+312,CHEMBL494931,1.0,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
+408,CHEMBL492886,2.0,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
+412,CHEMBL4288787,13.0,"Selectivity index, ratio of TC50 for African green monkey Vero cells to IC50 for Vaccinia virus Copenhagen",CHEMBL4257560
+427,CHEMBL492467,3.1,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
+492,CHEMBL492887,2.0,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
+493,CHEMBL522832,2.6,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
+511,CHEMBL4284662,26.0,"Selectivity index, ratio of TC50 for African green monkey Vero cells to IC50 for Vaccinia virus Copenhagen",CHEMBL4257560
+516,CHEMBL4280812,11.0,"Selectivity index, ratio of TC50 for African green monkey Vero cells to IC50 for Vaccinia virus Copenhagen",CHEMBL4257560
+532,CHEMBL492473,1.8,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
+564,CHEMBL526118,1.0,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
+579,CHEMBL445205,1.0,"Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells aft",CHEMBL1140145
